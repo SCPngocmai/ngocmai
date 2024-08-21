@@ -1492,7 +1492,7 @@ input, select, textarea {
 		padding: 15px 25px 15px 25px;
 		background-color: #007b9d;
 		border-radius: 10px;
-		: lowercase;
+		: capitalize;
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;
@@ -1559,7 +1559,7 @@ input, select, textarea {
 			right: 40px;
 			top: 1px;
 			line-height: 84px;
-			: lowercase;
+			: capitalize;
 			font-size: 1.3em;
 			letter-spacing: -1px;
 		}
@@ -1623,7 +1623,7 @@ input, select, textarea {
 			font-size: 1.6em;
 			color: #fff;
 			letter-spacing: -1px;
-			: lowercase;
+			: capitalize;
 			opacity: 0.8;
 		}
 
