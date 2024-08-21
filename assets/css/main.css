@@ -1513,7 +1513,7 @@ input, select, textarea {
 /* Header */
 
 	#header-wrapper {
-		background: url('assets/images/background-image.jpg') no-repeat center center;
+		background: url('/assets/images/background-image.jpg') no-repeat center center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
@@ -1739,14 +1739,13 @@ input, select, textarea {
 			}
 
 		/* Header */
-
+		@media screen and (max-width: 980px) {
 			#header-wrapper {
-				background-image: -moz-linear-gradient(top, #008dab, #007294);
-				background-image: -webkit-linear-gradient(top, #008dab, #007294);
-				background-image: -ms-linear-gradient(top, #008dab, #007294);
-				background-image: linear-gradient(top, #008dab, #007294);
-				background-color: #007294;
+				background: url('/assets/images/background-image.jpg') no-repeat center center !important;
+				background-size: cover !important;
+				background-attachment: fixed !important;
 			}
+		}
 
 			#header {
 				display: none;
