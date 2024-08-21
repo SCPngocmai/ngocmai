@@ -1739,15 +1739,6 @@ input, select, textarea {
 				padding-top: 44px;
 			}
 
-		/* Header */
-		@media screen and (max-width: 980px) {
-			#header-wrapper {
-				background: url('ngocmai/assets/images/background-image.png') no-repeat center center !important;
-				background-size: cover !important;
-				background-attachment: fixed !important;
-			}
-		}
-
 			#header {
 				display: none;
 			}
