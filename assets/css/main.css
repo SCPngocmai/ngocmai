@@ -1513,7 +1513,7 @@ input, select, textarea {
 /* Header */
 @media screen and (max-width: 980px) {
 	#header-wrapper {
-		background: url('/assets/images/background-image.png') no-repeat center center !important;
+		background: url('ngocmai/assets/images/background-image.png') no-repeat center center !important;
 		background-size: cover !important;
 		background-attachment: fixed !important;
 	}
@@ -1742,7 +1742,7 @@ input, select, textarea {
 		/* Header */
 		@media screen and (max-width: 980px) {
 			#header-wrapper {
-				background: url('/assets/images/background-image.png') no-repeat center center !important;
+				background: url('ngocmai/assets/images/background-image.png') no-repeat center center !important;
 				background-size: cover !important;
 				background-attachment: fixed !important;
 			}
