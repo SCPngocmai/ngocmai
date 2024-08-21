@@ -1513,10 +1513,10 @@ input, select, textarea {
 /* Header */
 @media screen and (max-width: 980px) {
 	#header-wrapper {
-		background: url('ngocmai/assets/images/background-image.png') no-repeat center center !important;
-		background-size: cover !important;
-		background-attachment: fixed !important;
-	}
+		background: url('assets/images/background-image.png') no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px; /* Thêm chiều cao để dễ thấy ảnh */
 }
 
 	#header {
