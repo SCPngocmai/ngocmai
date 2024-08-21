@@ -1446,7 +1446,7 @@ input, select, textarea {
 			height: 32px;
 			line-height: 24px;
 			padding-left: 40px;
-			background: url("images/icon-bubble.png") no-repeat;
+			background: url('/assets/images/background-image.png') no-repeat center center !important;
 		}
 
 		article.blog-post .blog-post-image {
@@ -1823,7 +1823,7 @@ input, select, textarea {
 						position: absolute;
 						width: 20px;
 						height: 30px;
-						background: url("images/mobileUI-site-nav-opener-bg.svg");
+						background: url('/assets/images/background-image.png') no-repeat center center !important;
 						top: 16px;
 						left: 19px;
 					}
